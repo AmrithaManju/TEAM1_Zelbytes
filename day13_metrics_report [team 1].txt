@@ -1,0 +1,19 @@
+Confusion Matrix:
+[[144   0   0]
+ [  0  58   0]
+ [  0   3  96]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        ripe       1.00      1.00      1.00       144
+     turning       0.95      1.00      0.97        58
+      unripe       1.00      0.97      0.98        99
+
+    accuracy                           0.99       301
+   macro avg       0.98      0.99      0.99       301
+weighted avg       0.99      0.99      0.99       301
+
+
+Precision (weighted): 0.9905
+Recall (weighted): 0.9900
